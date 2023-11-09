@@ -3,3 +3,8 @@
 Каунов Семен(PoetFromIce)- myfile.py 
 Казарин Иван (IKWor) - classifier.py
 Измалкин Алексей (perfeus) - texttospeech.py (pytorch pre-trained model to convert text to speech)
+# HW 2
+Мельников Денис(AGBullet)- detecion_object.py
+Результат работы: 
+![image](https://github.com/AGBullet/Software-engineering-1.1/assets/78823503/0b1aface-dbc1-49ed-b6c0-7588f552ed15)
+![image](https://github.com/AGBullet/Software-engineering-1.1/assets/78823503/530c6fdd-8a25-4594-8c67-aa93f4d0f169)
