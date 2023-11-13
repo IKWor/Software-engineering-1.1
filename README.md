@@ -11,3 +11,7 @@
 Казарин Иван (IKWor) - spiral_app.py
 Результат работы:
 ![image](https://github.com/AGBullet/Software-engineering-1.1/assets/149700414/32f451c7-1b69-4847-9685-8c0dad2c7df4)
+
+Измалкин Алексей (perfeus) - texttospeech.py
+Результаты работы:
+
