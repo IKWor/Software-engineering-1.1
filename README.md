@@ -14,4 +14,6 @@
 
 Измалкин Алексей (perfeus) - texttospeech.py
 Результаты работы:
-![image](https://disk.yandex.com/i/uy8fKwO3sPFTbA)
+![image](https://github.com/AGBullet/Software-engineering-1.1/assets/48157562/9b652637-4bc5-47b9-9473-54a39294c011)
+
+
