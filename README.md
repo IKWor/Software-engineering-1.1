@@ -16,4 +16,5 @@
 Результаты работы:
 ![image](https://github.com/AGBullet/Software-engineering-1.1/assets/48157562/9b652637-4bc5-47b9-9473-54a39294c011)
 
-
+# HW 2
+Мельников Денис(AGBullet)-main.py, requirements_bullet.txt
