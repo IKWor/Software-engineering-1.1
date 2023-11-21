@@ -18,3 +18,5 @@
 
 # HW 3
 Мельников Денис(AGBullet)-main.py, requirements_bullet.txt
+
+Измалкин Алексей(perfeus) - main.py, requirements.txt
