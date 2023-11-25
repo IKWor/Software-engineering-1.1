@@ -20,3 +20,6 @@
 Мельников Денис(AGBullet)-main.py, requirements_bullet.txt
 
 Измалкин Алексей(perfeus) - main.py, requirements.txt
+
+# HW 4
+Измалкин Алексей(perfeus) [Сcылка на проект в гитхабе](https://github.com/perfeus/HW4)
