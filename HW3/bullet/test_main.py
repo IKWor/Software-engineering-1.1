@@ -9,7 +9,6 @@ def test_read_main():
     assert response.status_code == 200
     assert response.json() == {"message": "Hello World"}
     
-
 def test_detector_photo():
     with TestClient(app) as client:
         url = "/get_detector/"
