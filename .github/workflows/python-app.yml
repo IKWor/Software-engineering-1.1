@@ -30,7 +30,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Lint with flake8
       run: |
-      flake8 --ignore='HW3/bullet/test_main.py'
+        flake8 --ignore='HW3/bullet/test_main.py'
     - name: Test with pytest
       run: |
         pytest
