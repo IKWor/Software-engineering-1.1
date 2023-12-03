@@ -1,6 +1,6 @@
 from fastapi.testclient import TestClient # импортируем тестовый клиент
 from izmalkin import app, Item # импортируем наше приложение и класс Item
-
+import optimum
 
 client = TestClient(app) # создаем тестовый клиент
 

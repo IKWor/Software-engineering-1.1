@@ -1,9 +1,8 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from transformers import AutoTokenizer, pipeline
-from optimum.onnxruntime import ORTModelForQuestionAnswering
-
-import warnings
+import optimum.onnxruntime
+from .optimum.onnxruntime import ORTModelForQuestionAnswering
 
 
 app = FastAPI()
