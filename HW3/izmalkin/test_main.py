@@ -17,7 +17,7 @@ def test_predict():
     функция для тестирования пути /predict/
     """
     item = Item(question="What is my position?", context="Hello there, my name is Alex and I work as a machine learning engineer")
-    response = client.post("/predict/", json=item.dict())
+    response = client.post("/predict/", json=item.model_dump())
     assert response.status_code == 200
     assert response.json() == "machine learning engineer"
 
