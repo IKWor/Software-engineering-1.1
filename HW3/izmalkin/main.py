@@ -3,6 +3,9 @@ from pydantic import BaseModel
 from transformers import AutoTokenizer, pipeline
 from optimum.onnxruntime import ORTModelForQuestionAnswering
 
+import warnings
+
+
 app = FastAPI()
 class Item(BaseModel):
     question: str

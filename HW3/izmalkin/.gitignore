@@ -1,1 +1,4 @@
-env/*
+*
+!test_main.py
+!main.py
+!requirements.txt
