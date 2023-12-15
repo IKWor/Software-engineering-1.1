@@ -4,11 +4,11 @@
 
 ## Инструкция по локальному запуску
 
-git clone git@github.com:AGBullet/Software-engineering-1.1.git
-cd Software-engineering-1.1
-cd project
-pip install -r requirements.txt
-streamlit run main.py
+git clone git@github.com:AGBullet/Software-engineering-1.1.git  
+cd Software-engineering-1.1  
+cd project  
+pip install -r requirements.txt  
+streamlit run main.py  
 
 ## Использование
 
