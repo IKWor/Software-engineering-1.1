@@ -1,26 +1,13 @@
-from fastapi.testclient import TestClient
-from main import app
+import unittest
+from main import voicer
 
-client = TestClient(app)
+class TestMain(unittest.TestCase):
+def test_voicer(self):
+text = "Привет, мир!"
+audio = voicer(text)
+self.assertIsInstance(audio, torch.Tensor)
+self.assertEqual(audio.shape[0], 1)
+self.assertEqual(audio.shape[1], 48000)
 
-
-def test_read_main():
-    response = client.get("/")
-    assert response.status_code == 200
-    assert response.json() == {"message": "Hello World"}
-
-
-def test_predict_positive():
-    response = client.post("/predict/",
-                           json={"text": "I like ML!"})
-    json_data = response.json()
-    assert response.status_code == 200
-    assert json_data['label'] == 'POSITIVE'
-
-
-def test_predict_negative():
-    response = client.post("/predict/",
-                           json={"text": "I hate ML!"})
-    json_data = response.json()
-    assert response.status_code == 200
-    assert json_data['label'] == 'NEGATIVE'
+if name == 'main':
+unittest.main()
