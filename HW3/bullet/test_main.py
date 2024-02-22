@@ -3,7 +3,6 @@ from main import app
 
 client = TestClient(app)
 
-
 def test_read_main():
     response = client.get("/")
     assert response.status_code == 200
@@ -14,4 +13,3 @@ def test_detector_photo():
         url = "/get_detector/"
         response = client.get(url)
         assert response.status_code == 200
-  
