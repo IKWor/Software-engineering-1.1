@@ -3,7 +3,6 @@ from transformers import pipeline
 from pydantic import BaseModel
 
 
-
 app = FastAPI()
 detector = pipeline(model="facebook/detr-resnet-50")
 
